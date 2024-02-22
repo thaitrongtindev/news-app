@@ -52,7 +52,7 @@ dependencies {
 
     // room
     implementation ("androidx.room:room-runtime:2.6.1")
-    kapt ("androidx.room:room-compiler:$2.6.1")
+    kapt ("androidx.room:room-compiler:2.6.1")
  /// room - coroutine
     implementation("androidx.room:room-ktx:2.6.1")
 
@@ -62,8 +62,8 @@ dependencies {
 
     // retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson")
-    implementation("com.squareup.okhttp3:logging-interceptor")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.5.0")
 
 
     //glide
